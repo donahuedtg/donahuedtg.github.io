@@ -1,15 +1,20 @@
 jQuery().ready(function () {
-    var Answer = $('.answer');
+	
+	$('#addValuta').val('Add Curency (XXX)');
+	$('#addFiks').val('Add Fixing');
+	$('#fixsing').val('1.95583');
+	
+    //var Answer = $('.answer');
 
-    Answer.hide();
+    //Answer.hide();
 
-    var Qestion = $('#main h2');
+    //var Qestion = $('#main h2');
     
-    Qestion.click(function () {
+    //Qestion.click(function () {
     
-        $(this).next().toggle('slow')
-        $('#login').show();
-    });
+      //  $(this).next().toggle('slow')
+      //  $('#login').show();
+    //});
 	
     //Qestion.toggle(
     //function () {
@@ -211,6 +216,8 @@ jQuery().ready(function () {
 
         $('#reset').click(function () {
             $('#submit').val('Convert');
+            $('#addFiks').val('');
+            $('#addValuta').val('');
         });
 
     $('#btnValuta').click(function () {
