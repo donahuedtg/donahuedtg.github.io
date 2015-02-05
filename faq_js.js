@@ -209,7 +209,7 @@ jQuery().ready(function () {
 
         });
 
-        $('#textVal').click(function () {
+        $('#reset').click(function () {
             $('#submit').val('Convert');
         });
 
