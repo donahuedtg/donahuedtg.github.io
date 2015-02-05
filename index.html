@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head lang="en">
+    <meta charset="utf-8" />
+    <title>Tabs</title>
+    <script src="jquery.js"></script>
+    <script src="prefixfree.min.js"></script>
+    <link href="styleTabs.css" rel="stylesheet" />
+    <script src="tabs_js.js"></script>
+    <script src="faq_js.js"></script>
+
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <ul class="tabs">
+                <li><a href="#panel1">News</a></li>
+                <li><a href="#panel2">Sport</a></li>
+                <li><a href="#panel3">Others</a></li>
+                <li><a href="#panel5">Dictionary</a></li>
+                <li><a href="#panel4">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="panelContainer">
+            <div id="panel1" class="panel">
+                <h2>Hello News</h2>
+
+                
+               
+
+                
+            </div>
+
+
+            <div id="panel2" class="panel">
+                <h2>Hello Sport</h2>
+
+                <fieldset class="fieldsetArticle">
+                    
+                    <div class="divPic">
+                        <img class="imgF" src="Media/news1pic.png" />
+                    </div>
+                    <p class="news">
+                        Ливърпул разгроми лидера в Премиър лийг Арсенал с 5:1 на "Анфийлд", като мърсисайдци изиграха изключително силен двубой, в който доказаха, че имат потенциала да спорят дори за титлата през този ...
+
+                        Прочети повече на:
+
+                        <a href="http://www.sportal.bg/news_category.php?category=21">Link</a>
+                    </p>
+
+                </fieldset>
+                
+                <fieldset class="fieldsetArticle">
+                    
+
+                    <div class="divPic">
+                        <img class="imgF" src="Media/news1pic.png" />
+                    </div>
+                    <p class="news">
+                        Наполи изигра един от най-силните си
+                        мачове през сезона и победи Милан с 3:1 в едно
+                        от двете големи дербита в 23-ия кръг на Серия "А".
+                        Тимът на Рафаел Бенитес направи пълен обрат,
+                        след като Адел ...
+
+                        Прочети повече на:
+                        <a href="http://www.sportal.bg/news_category.php?category=2">Link</a>
+                    </p>
+
+                </fieldset>
+            </div>
+            <div id="panel3" class="panel">
+                <h2>Hello Others</h2>
+            <fieldset>
+                <form id="form" method="post" action="indexEURandBGL.html">
+            <p>Въведете валута</p>    
+            <ul>
+                <li>
+            <label for="textVal" class="label">Стойност</label>
+            <input type="text" id="textVal" class="input" placeholder="Въведете сума"/>
+                </li>
+                <li>
+            <label for="select" class="label">Валута</label>
+                    <select id="select">
+                        <option value="EUR">EUR</option>
+                        <option value="USD">USD</option>
+                        <option value="GBP">GBP</option>
+                        <option value="BGL">BGL</option>
+                        
+                    </select>
+                </li>
+                <li id="hide">
+                    <label for="fixsing" class="label">Фиксинг</label>
+                    <input type="text" id="fixsing" class="input" />
+
+                </li>
+                <li>
+                <label for="textBGL" class="label">Стойност в Лева</label>
+                <input type="text" id="textBGL" class="input" />
+                </li>
+
+                <li id="down">
+            <input type="submit" id="submit" value="Convert"/>
+            <input type="reset" id="reset" value="Clear"/>
+                    </li>
+            </ul>
+            </form>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Добавете валута</legend>
+                    <ul id="add">
+                        <li>
+                            <label>Валута</label>
+                            <input id="addValuta" type="text" class="input"/>
+                        </li>
+                        <li>
+                            <label>Фиксинг</label>
+                            <input id="addFiks" type="text" class="input"/>
+                        </li>
+                        <li>
+
+                            <input id="btnValuta" type="button" value="Добави" />
+                        </li>
+                        
+                    </ul>
+                    
+                </fieldset>
+
+                
+            </div>
+            <div id="panel4" class="panel">
+                <h2>Contact</h2>
+
+                <fieldset>
+                    <legend> Моля въведете информация за Вас</legend>
+                    <ul>
+                        <li><input id="firstName" type="text" class="blurText" placeholder="Въведете Име"/></li>
+                        <li><input id="lastName" type="text" class="blurText" placeholder="Въведете Фамилия"/></li>
+                        <li><input id="phone" type="tel" class="blurText" placeholder="Въведете Телефон"/></li>
+                        <li><input id="email" type="email" placeholder="Въведете И-мейл"  /></li>
+                        <input type="submit" id="btnContactSubmit" value="Send Detail"/>
+                    </ul>
+
+                </fieldset>
+                <fieldset id="contactDetails">
+                    
+                    
+
+
+                </fieldset>
+
+
+
+
+            </div>
+
+            <div id="panel5" class="panel">
+
+                <nav>
+                    <ul class="letters">
+                    <li><a href="#" class="letter" id="letter-a">A</a></li>
+        
+        
+                    <li><a href="#" class="letter" id="letter-b">B</a></li>
+        
+        
+                    <li><a href="#" class="letter" id="letter-c">C</a></li>
+        
+        
+                    <li><a href="#" class="letter" id="letter-d">D</a></li>
+                    </ul>
+
+                </nav>
+
+                    <div id="dictionary"></div>
+
+            </div>
+
+
+        
+
+            <footer id="footer">Copyright 2014 Created by DTG</footer>
+          </div>
+
+    
+    </div>
+</body>
+</html>
