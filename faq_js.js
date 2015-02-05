@@ -1,6 +1,6 @@
 jQuery().ready(function () {
 	
-	$('#addValuta').val('Add Curency (XXX)');
+	$('#addValuta').val('Add Currency (XXX)');
 	$('#addFiks').val('Add Fixing');
 	$('#fixsing').val('1.95583');
 	
