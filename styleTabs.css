@@ -4,7 +4,16 @@ body {font-family:Verdana Arial sans-serif;
 
 .main {max-width:900px;
        margin:0 auto 0 auto;
+       clear:both;
        
+}
+
+.right{
+      float:right;
+      
+}
+.left{
+      float:left;
 }
 
 .tabs {margin:0;
