@@ -1,11 +1,11 @@
 body {font-family:Verdana Arial sans-serif;
       font-size:18px;
-      background:grey;
+      background:#D0D0D0;
 }
 
 .main {max-width:1280px;
        margin:0 auto 0 auto;
-       
+       border-radius:25px;
        
 }
 
@@ -34,6 +34,7 @@ body {font-family:Verdana Arial sans-serif;
 
         .tabs a.active {
             background:grey;
+            
         }
 
 .panelContainer {clear:left;
