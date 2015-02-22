@@ -42,7 +42,7 @@ body {font-family:Verdana Arial sans-serif;
 }
 
 .panel {color:darkblue;
-        background:#c1ed78;
+        background:#D0D0D0;
         
         height:inherit;
         
@@ -54,7 +54,7 @@ body {font-family:Verdana Arial sans-serif;
         
         left:25%;
         /*border:1px solid black;*/
-        background:#c1ed78;
+        background:#D0D0D0;
 }
 #form p { position:relative;
           left:30%;
@@ -120,7 +120,7 @@ body {font-family:Verdana Arial sans-serif;
 }
 
 footer {padding:10px 10px 10px 10px;
-        background:#d95353;
+        background:#E0E0E0;
         text-align:right;
 }
 /*za AddValuta*/
