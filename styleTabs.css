@@ -2,10 +2,12 @@ body {font-family:Verdana Arial sans-serif;
       font-size:18px;
       background:linear-gradient(to right top , grey, orange)
       
+      
 }
 
 .main {max-width:1280px;
        margin:0 auto 0 auto;
+       border-radius:20px;
        
        
 }
@@ -43,7 +45,7 @@ body {font-family:Verdana Arial sans-serif;
 }
 
 .panel {color:darkblue;
-        background:#D0D0D0;
+        
         
         height:inherit;
         
@@ -55,7 +57,7 @@ body {font-family:Verdana Arial sans-serif;
         
         left:25%;
         /*border:1px solid black;*/
-        background:#D0D0D0;
+        
 }
 #form p { position:relative;
           left:30%;
@@ -121,7 +123,7 @@ body {font-family:Verdana Arial sans-serif;
 }
 
 footer {padding:10px 10px 10px 10px;
-        background:#E0E0E0;
+        background:silver;
         text-align:right;
         margin:2px 2px 2px 2px;
 }
@@ -131,7 +133,7 @@ footer {padding:10px 10px 10px 10px;
         list-style-type:none;
         left:25%;
         /*border:1px solid black;*/
-        background:#D0D0D0;
+        
           
 }
 
