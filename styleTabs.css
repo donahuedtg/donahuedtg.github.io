@@ -1,5 +1,6 @@
 body {font-family:Verdana Arial sans-serif;
       font-size:18px;
+      background:linear-gradient(to right top , #20B2AA, #000080)
      
       
       
@@ -22,7 +23,7 @@ body {font-family:Verdana Arial sans-serif;
 
 .tabs {margin:0;
        padding:0;
-       border-radius:20px;
+       
 }
 
     .tabs li {float:left;
@@ -38,7 +39,7 @@ body {font-family:Verdana Arial sans-serif;
 
         .tabs a.active {
             background:grey;
-            
+            border-radius:20px;
         }
 
 .panelContainer {clear:left;
