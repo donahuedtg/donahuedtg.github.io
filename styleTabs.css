@@ -1,10 +1,7 @@
-html{
-      background:linear-gradient(to right top , grey, orange)
-}
-
 body {font-family:Verdana Arial sans-serif;
       font-size:18px;
-      
+      background:linear-gradient(to right top , grey, orange)
+      height:100%;
      
       
       
