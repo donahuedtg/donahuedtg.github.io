@@ -38,6 +38,8 @@ jQuery().ready(function () {
 
 
     $('#btnContactSubmit').click(function (data) {
+        
+        
         $('#contactDetails').append('<legend>' + "Contact Details " + '</legend>')
         
         /* za prepisvane
@@ -55,11 +57,15 @@ jQuery().ready(function () {
         details.push( $('#email').val());
 
         console.log(details);
-
+        
+        if(details.val() == " "){
+            $('#contactDetails').append('<p>Моля попълнете полетата!</p>');
+        }
+        else{
         $.each(details, function (key, value) {
 
             $('#contactDetails').append('<p>' + value + '</p>');
-            
+        }   
         });
         
     });
