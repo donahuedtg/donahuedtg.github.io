@@ -50,24 +50,25 @@ jQuery().ready(function () {
         */
 
         var details = [];
-
-        details.push( $('#firstName').val());
+        if($('#firstName').val() == ""){
+            $('#contactDetails').append('<p>Моля попълнете полетата!</p>');
+        }
+        else{
+            details.push( $('#firstName').val());
+        }
+        
         details.push( $('#lastName').val());
         details.push( $('#phone').val());
         details.push( $('#email').val());
 
         console.log(details);
         
-        if(details[0] == " " || details[1] == " "||details[2] == " "||details[3] == " "){
-            $('#contactDetails').append('<p>Моля попълнете полетата!</p>');
-        }
-        else{
         $.each(details, function (key, value) {
 
             $('#contactDetails').append('<p>' + value + '</p>');
           
         });
-        }
+        
     });
     
 
