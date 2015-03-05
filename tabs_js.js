@@ -50,7 +50,7 @@ jQuery().ready(function () {
         */
 
         var details = [];
-        if($('#firstName').val() == " "){
+        if($('#firstName').val() = " "){
             $('#contactDetails').append('<p>Моля попълнете полетата!</p>');
         }
         else{
