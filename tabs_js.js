@@ -58,7 +58,7 @@ jQuery().ready(function () {
 
         console.log(details);
         
-        if(details.val() == " "){
+        if(details[0] == " " || details[1] == " "||details[2] == " "||details[3] == " "){
             $('#contactDetails').append('<p>Моля попълнете полетата!</p>');
         }
         else{
