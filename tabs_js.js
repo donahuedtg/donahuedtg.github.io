@@ -65,9 +65,9 @@ jQuery().ready(function () {
         $.each(details, function (key, value) {
 
             $('#contactDetails').append('<p>' + value + '</p>');
-        }   
+          
         });
-        
+        }
     });
     
 
