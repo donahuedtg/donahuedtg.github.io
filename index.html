@@ -170,15 +170,16 @@
 
                 <fieldset>
                     <legend> Моля въведете информация за Вас</legend>
-                    <ul>
-                        <li><input id="firstName" type="text" class="blurText" placeholder="Въведете Име"/></li>
-                        <li><input id="lastName" type="text" class="blurText" placeholder="Въведете Фамилия"/></li>
-                        <li><input id="phone" type="tel" class="blurText" placeholder="Въведете Телефон"/></li>
-                        <li><input id="email" type="email" placeholder="Въведете И-мейл"  /></li>
-                        
-                    </ul>
+                    <form method="post" action="contact.php">
+                        <ul>
+                            <li><input id="firstName" type="text" class="blurText" placeholder="Въведете Име"/></li>
+                            <li><input id="lastName" type="text" class="blurText" placeholder="Въведете Фамилия"/></li>
+                            <li><input id="phone" type="tel" class="blurText" placeholder="Въведете Телефон"/></li>
+                            <li><input id="email" type="email" placeholder="Въведете И-мейл"  /></li>
+                            
+                        </ul>
                         <input type="submit" id="btnContactSubmit" value="Send Detail"/>
-
+                    </form>
                 </fieldset>
                 <fieldset id="contactDetails">
                     
