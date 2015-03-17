@@ -1,7 +1,7 @@
 body {font-family:Verdana Arial sans-serif;
       font-size:18px;
       background:linear-gradient(to right top , grey, orange)
-      background-position:center;
+      background-size:cover;
 
       
      
@@ -138,6 +138,10 @@ footer {padding:10px 10px 10px 10px;
         
         text-align:right;
         margin:10px 10px 10px 10px;
+}
+footer .list li{
+      margin-bottom:5px;
+      
 }
 /*za AddValuta*/
 #add { position:relative;
@@ -307,6 +311,11 @@ footer {padding:10px 10px 10px 10px;
         
         text-align:right;
         margin:10px 10px 10px 10px;
+}
+
+footer .list li{
+      margin-bottom:5px;
+      
 }
 /*za AddValuta*/
 #add { position:relative;
