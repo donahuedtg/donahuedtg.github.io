@@ -358,5 +358,6 @@ footer .list li{
 
 
 @-ms-viewport{
-  width: 640px;
+  width: 480px;
+  height: 640px;
 }
