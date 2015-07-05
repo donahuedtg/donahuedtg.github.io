@@ -1,12 +1,6 @@
 body {font-family: 'Martel Sans', Verdana, Arial, sans-serif;
       font-size:18px;
       background:linear-gradient(to right top , grey, orange);
-
-
-      
-     
-      
-      
 }
 
 .main {width:1280px;
@@ -180,7 +174,7 @@ footer .list li{
                 display:inline-block;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width: 600px) 
       .main {
        margin:0 auto 0 auto;
        border-radius:20px;
@@ -237,7 +231,7 @@ footer .list li{
 }
 
 #form { position:relative;
-        max-width:400px;
+        max-width:300px;
         
         left:25%;
         /*border:1px solid black;*/
@@ -318,7 +312,7 @@ footer .list li{
 }
 /*za AddValuta*/
 #add { position:relative;
-        max-width:400px;
+        max-width:300px;
         list-style-type:none;
         left:25%;
         /*border:1px solid black;*/
@@ -357,7 +351,4 @@ footer .list li{
 }
 
 
-@-ms-viewport{
-  width: 640px;
-  
-}
+
