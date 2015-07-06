@@ -3,17 +3,18 @@
 }
 
 .menu-nav ul{
-	list-style-type: none;
+	list-style: none;
     margin: 0;
     padding: 0;
+	
 
 }
 
 .menu-nav li{
 	padding: 8px;
     margin-bottom: 7px;
-    background-color :#33b5e5;
-    color: #ffffff;
+
+	
 }
 
 
