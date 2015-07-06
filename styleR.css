@@ -28,8 +28,8 @@ h1{
 
 @media (max-width:600px){
 	.main{
-	background:red;
+		background:red;
 		margin: 0 auto 0 auto;
-		width:600px;
+		width:300px;
 	}
 }
