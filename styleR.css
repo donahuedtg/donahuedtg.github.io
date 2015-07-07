@@ -31,9 +31,9 @@ h1{
 
 @media (max-width:600px){
 	.main{
-		font-size:150%;
+		font-size:100%;
 		font-family: Verdana;
-		background:#980000;
+		background:red;
 		margin: 0 auto 0 auto;
 		width:100%;
 
