@@ -1,10 +1,11 @@
+@media all and (min-width:600px){
 .main{
 	background:blue;
 	margin: 0 auto 0 auto;
-	width:1024px;
+	width:100%;
 }
 
-.menu-nav ul{
+.menu-nav{
 	
     margin: 0;
     padding: 0;
@@ -24,12 +25,12 @@ h1{
 	text-align:center;
 }
 
-
+}
 
 @media (max-width:600px){
 	.main{
 		background:red;
 		margin: 0 auto 0 auto;
-		width:600px;
+		width:100%;
 	}
 }
