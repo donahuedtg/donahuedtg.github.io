@@ -2,7 +2,7 @@
 .main{
 
 	font-family: Verdana;
-	background:blue;
+	background:#A0A0A0;
 	margin: 0 auto 0 auto;
 	width:100%;
 }
@@ -33,7 +33,7 @@ h1{
 	.main{
 		font-size:200%;
 		font-family: Verdana;
-		background:green;
+		background:9933CC;
 		margin: 0 auto 0 auto;
 		width:100%;
 
