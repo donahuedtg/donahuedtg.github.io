@@ -1,9 +1,12 @@
+@media all and (min-widtg:600px){
+
+
 body {font-family: 'Martel Sans', Verdana, Arial, sans-serif;
       font-size:18px;
       background:linear-gradient(to right top , grey, orange);
 }
 
-.main {width:1280px;
+.main {width:100%
        margin:0 auto 0 auto;
        border-radius:20px;
        
@@ -174,8 +177,10 @@ footer .list li{
                 display:inline-block;
 }
 
-@media only screen and (min-width: 680px) 
-      .main {width:480px;
+}
+
+@media (max-width: 680px) 
+      .main {width:100%;
        margin:0 auto 0 auto;
        border-radius:20px;
        
