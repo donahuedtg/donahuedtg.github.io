@@ -1,5 +1,7 @@
 @media all and (min-width:600px){
 .main{
+
+	font-family: Verdana;
 	background:blue;
 	margin: 0 auto 0 auto;
 	width:100%;
@@ -29,8 +31,31 @@ h1{
 
 @media (max-width:600px){
 	.main{
-		background:red;
+		font-size:200%;
+		font-family: Verdana;
+		background:green;
 		margin: 0 auto 0 auto;
 		width:100%;
+
 	}
+	.menu-nav{
+	
+    margin: 0;
+    padding: 0;
+	
+
+}
+
+		.menu-nav li{
+			text-align:center;
+			padding: 8px;
+			margin-bottom: 7px;
+			list-style: none;
+
+			
+}
+			h1{
+				text-align:center;
+			}
+	
 }
