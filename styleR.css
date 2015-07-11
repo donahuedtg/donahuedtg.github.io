@@ -37,7 +37,7 @@ h1{
 	}
 }
 
-@media (max-width:600px){
+@media (max-width:320px){
 body{
 	background:linear-gradient(to right top , grey, orange);
 	
