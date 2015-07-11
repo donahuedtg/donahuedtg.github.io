@@ -1,8 +1,14 @@
 @media all and (min-width:600px){
+body{
+	background:#A0A0A0;
+	
+}
+
+
 .main{
 
 	font-family: Verdana;
-	background:#A0A0A0;
+	
 	margin: 0 auto 0 auto;
 	width:100%;
 }
@@ -32,10 +38,18 @@ h1{
 }
 
 @media (max-width:600px){
+body{
+	background:linear-gradient(to right top , grey, orange);
+	
+}
+
+
+
+
 	.main{
 		font-size:100%;
 		font-family: Verdana;
-		background:red;
+		
 		margin: 0 auto 0 auto;
 		width:100%;
 
